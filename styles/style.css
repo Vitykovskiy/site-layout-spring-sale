@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  ottom: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.header {
+  font-family: Montserrat;
+  overflow: hidden;
+  flex-grow: 1;
+  font-size: 40px;
+  background-color: #5300a8;
+}
+
+.container {
+  width: 100%;
+  max-width: 3000px;
+  margin: 0 auto;
+}
+
+.header__container {
+  max-width: 178vh;
+  display: flex;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2% 2%;
+  justify-content: space-between;
+  background: url("../images/design/Design.webp") 93% 0/auto 98% no-repeat, url("../images/Place_Your_Image_Here.png") #5300a8 100% 0/auto 100% no-repeat;
+}
+
+.header__content {
+  padding: 10vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__title {
+  color: black;
+  font-size: 10vh;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 0.9;
+  letter-spacing: -0.5vh;
+}
+
+.header__title--big-white-font {
+  font-size: 18vh;
+  color: white;
+}
+
+.header__title--smaller-yellow-font {
+  font-size: 11vh;
+  color: #e7ae29;
+}
+
+.header__sale-info {
+  font-size: 5vh;
+  color: #e7ae29;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.3vh;
+  margin: 1.5vh 0;
+}
+
+.header__sale-info--up-left {
+  font-size: 5vh;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  right: 5vh;
+}
+
+.header__percent-symbol {
+  font-size: 5vh;
+  vertical-align: bottom;
+}
+
+.header__sale-date {
+  font-size: 5vh;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.3vh;
+  margin: 1.5vh 0;
+}
+
+.header__company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo__img {
+  height: 8vh;
+}
+
+.contacts {
+  font-size: 0px;
+}
+
+.contacts__items {
+  margin: 1vh 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contacts__img {
+  width: 5vh;
+  margin-left: 2vh;
+  filter: brightness(10);
+}
+
+.contacts__href {
+  margin: 1vh 0;
+  font-size: 2.5vh;
+  color: white;
+}
+
+.contacts__img:hover, .contacts__href:hover, .logo__img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 200ms;
+}
